@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &__vector47 {
+    max-width: 1039px;
+    width: 100%;
+    height: 67px;
+    top: -17px;
+    left: 610.5px;
+    position: absolute;
+    z-index: 1;
+    background-image: url('../assets/images/vector_47.svg');
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1024px) and (max-width: 1919px) {
+      left: calc(-159.4px + (610.5 - -159.4) * (100vw - 1024px) / (1920 - 1024));
+    }
+  }
+
+  &__vector46 {
+    max-width: 939px;
+    width: 100%;
+    height: 69px;
+    left: 534.5px;
+    position: absolute;
+    z-index: 2;
+    background-image: url('../assets/images/vector_46.svg');
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1024px) and (max-width: 1919px) {
+      left: calc(-153.2px + (534.5 - -153.2) * (100vw - 1024px) / (1920 - 1024));
+    }
+  }
+
+  &__vector45 {
+    width: 1247px;
+    height: 77.12px;
+    left: 0;
+    position: absolute;
+    z-index: 3;
+    background-image: url('../assets/images/vector_45.svg');
+    background-repeat: no-repeat;
+
+    @media screen and (min-width: 1024px) and (max-width: 1919px) {
+      left: calc(-582px + (0 - -582) * (100vw - 1024px) / (1920 - 1024));
+    }
+  }
+
+  &__common {
+    display: flex;
+    flex-direction: column;
+    max-width: 1380px;
+    width: 100%;
+    min-height: 100vh;
+    margin: 140px auto;
+    background-color: var(--background-white-color);
+    box-shadow: 0px 0px 25px 0px #8EA0AD59;
+  }
+}
